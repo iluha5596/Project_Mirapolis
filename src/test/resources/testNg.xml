@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" parallel="classes" thread-count="4">
+    <test name="Regression_Otus">
+        <classes>
+            <class name="mirapolis.com.regressAuthorization.NegativeTestPass"/>
+            <class name="mirapolis.com.regressAuthorization.NegativeTestLogin"/>
+            <class name="mirapolis.com.regressAuthorization.NegativeTestEmptyValue"/>
+            <class name="mirapolis.com.regressAuthorization.ValidLoginPass"/>
+
+        </classes>
+    </test>
+</suite>
